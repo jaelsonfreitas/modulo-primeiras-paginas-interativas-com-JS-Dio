@@ -8,3 +8,11 @@ Voçê terá tres variáveis. Sendo elas:
 Imprima no console o valor que será gasto de combustível para realizar essa viagem. 
 */
 
+const precoCombustivel = 5.39;
+const kmPorLitro = 10;
+const distancia = 780;
+
+const litrosConsumidos = distancia/kmPorLitro
+const gastoTotal = litrosConsumidos*precoCombustivel
+
+console.log (gastoTotal.toFixed(2))
