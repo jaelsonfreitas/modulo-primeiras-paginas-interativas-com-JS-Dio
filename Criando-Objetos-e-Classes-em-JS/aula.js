@@ -1,5 +1,4 @@
 
-
 const jaelson = {
     name: 'Jaélson Freitas',
     age: 33
@@ -7,4 +6,5 @@ const jaelson = {
 
 jaelson.height = 1.69
 
+delete jaelson.name
 console.log(jaelson);
