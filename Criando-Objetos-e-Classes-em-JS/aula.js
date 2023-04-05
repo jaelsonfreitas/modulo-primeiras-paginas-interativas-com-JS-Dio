@@ -5,7 +5,6 @@ const jaelson = {
     age: 33
 };
 
+jaelson.height = 1.69
 
-console.log(jaelson.name);
-console.log(jaelson.idade);
 console.log(jaelson);
