@@ -4,9 +4,11 @@ const person = {
     age: 33,
 
     toDescribe : function () {
-        console.log(`My name is ${this.name} and my age is ${this.age}`)
+        console.log(`My name is ${this.name} and my age is ${this.age} years.`)
     }
 };
 
+person.name = 'Thainah';
+person.age = 24;
 
 person.toDescribe();
