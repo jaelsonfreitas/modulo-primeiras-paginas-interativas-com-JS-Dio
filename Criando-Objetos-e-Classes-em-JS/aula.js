@@ -1,10 +1,12 @@
 
-const jaelson = {
+const person = {
     name: 'Jaélson Freitas',
-    age: 33
+    age: 33,
+
+    toDescribe : function () {
+        console.log(`My name is ${this.name} and my age is ${this.age}`)
+    }
 };
 
-jaelson.height = 1.69
 
-delete jaelson.name
-console.log(jaelson);
+person.toDescribe();
