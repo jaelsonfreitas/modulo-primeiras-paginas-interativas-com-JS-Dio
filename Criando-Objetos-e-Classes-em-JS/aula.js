@@ -8,7 +8,6 @@ const person = {
     }
 };
 
-person.name = 'Thainah';
-person.age = 24;
+const atribute = 'name'
 
-person.toDescribe();
+console.log(person[atribute]);
