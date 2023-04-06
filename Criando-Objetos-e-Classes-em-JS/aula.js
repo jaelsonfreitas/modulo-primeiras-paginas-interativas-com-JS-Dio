@@ -2,6 +2,13 @@
 class person {
     name;
     age;
+    yearOfBirth;
+
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+        this.yearOfBirth = 2023 - age;
+    }
 
     toDescribe(){
         console.log(`My name is ${this.name} and my age is ${this.age} years.`);
@@ -9,12 +16,7 @@ class person {
 }
 
 
-const jaelson = new person();
-jaelson.name = 'Jaelson';
-jaelson.age = 33;
+const jaelson = new person('Jaélson', 33);
+const catarina = new person('Catarina', 52);
 
-const catarina = new person();
-catarina.name = 'Catarina';
-catarina.age = 52;
-
-console.log(catarina); 
+console.log(jaelson);
