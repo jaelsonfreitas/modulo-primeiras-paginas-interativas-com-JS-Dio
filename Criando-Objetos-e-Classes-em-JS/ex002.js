@@ -20,3 +20,7 @@ class persons {
        return this.weight/(this.age * this.age);
      }
 }
+const jose = new persons('José', 70, 1.75);
+const thainah = new persons('Thainah', 82, 1.69)
+console.log(jose.calculateIbm());
+console.log(thainah.calculateIbm()); 
