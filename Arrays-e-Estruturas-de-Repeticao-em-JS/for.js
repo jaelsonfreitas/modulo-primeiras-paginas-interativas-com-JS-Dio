@@ -1,8 +1,8 @@
 
+const name1 = 'Jaelson Jose de Freitas'
 
-
-for (let index = 0; index < 11; index++) {
-    console.log(index);
+for (let index = 0; index < name1.length; index++) {
+    console.log(name1[index]);;
     
 }
 
