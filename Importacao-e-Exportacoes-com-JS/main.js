@@ -1,7 +1,4 @@
 
+const {gets, print} = require('./funcoes-auxiliares');
 
-const funcoes = require('./funcoes-auxiliares');
-
-
-console.log(funcoes.gets());
-
+print (gets())
