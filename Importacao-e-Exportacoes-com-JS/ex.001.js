@@ -14,4 +14,21 @@
 */
 const {gets, print} = require('./funcoes-auxiliares-ex');
 
+const drawnNumbers = [];
+
+for (let i = 0; i < 5; i++) {
+    const drawnNumber = gets();
+    drawnNumbers.push(drawnNumber);
+}
+
+let highestValue = 0;
+
+for (let index = 0; index < drawnNumbers.length; index++) {
+    const drawnNumber = drawnNumbers[index];
+    if (drawnNumber > highestValue) {
+        highestValue = drawnNumber;
+    } 
+}
+
+print(highestValue);
 
